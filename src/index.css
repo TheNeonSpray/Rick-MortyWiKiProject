@@ -1,11 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  background-color: #16ACC9;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.title-page{
+  font-family: 'Creepster', cursive;
+  color: #16ACC9;
+  font-size: 85px;
+}
+
+.text-border {
+  -webkit-text-stroke: 3px #F2E205;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
