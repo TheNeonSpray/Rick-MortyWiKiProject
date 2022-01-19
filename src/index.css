@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 
+
 body {
   margin: 0;
-  background-color: #16ACC9;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #50A23E;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
 .title-page{
@@ -17,6 +18,13 @@ body {
   -webkit-text-stroke: 3px #F2E205;
 }
 
+.nav-gradient{
+  background-color: #0D4637;
+  background-image:
+    linear-gradient(
+      #0D4637, #50A23E
+    );
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
