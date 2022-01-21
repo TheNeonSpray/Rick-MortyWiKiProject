@@ -1,11 +1,17 @@
+/* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+/* _____________________________________________________________________________________ */
 
+/* STYLES OF THE MAIN PAGE */
 .App{
   /* background-color: rgb(0, 0, 0); */
   /* background-image: url("../public/img/Space.png"); */
   margin: 0%;
   padding: 0%;
 }
+/* _____________________________________________________________________________________ */
+
+/* NAVBAR STYLES */
 .title-page{
   font-family: 'Creepster', cursive;
   color: #16ACC9;
@@ -15,14 +21,8 @@
 .text-border {
   -webkit-text-stroke: 3px #F2E205;
 }
+/* _____________________________________________________________________________________ */
 
-/* .nav-gradient{
-  background-color: #000000;
-  background-image:
-    linear-gradient(
-      #000000, #50a23e93
-    );
-} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
