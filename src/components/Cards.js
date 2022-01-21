@@ -8,7 +8,7 @@ const Cards = ({ results }) => {
       let { id, name, image, location } = i;
       return (
         <div key={id} className="col-4 d-grid gap-3">
-          <div className="card m-3" style={{ width: "18rem" }}>
+          <div className="card m-3 border border-info" style={{ width: "12rem" }}>
             <img src={image} className="card-img-top" alt="" />
             <div className="card-body">
               <h5 className="card-title">{name}</h5>
