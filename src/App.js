@@ -4,6 +4,7 @@ import "bootstrap/dist/js/bootstrap";
 import Filters from "./components/Filters";
 import Navbar from "./components/Navbar";
 import Cards from "./components/Cards";
+import Pagination from "./components/Pagination";
 
 
 
@@ -53,6 +54,8 @@ function App() {
           </div>
         </div>
       </div>
+      {/* Destructuring/ use the function */}
+      <Pagination pageNumber={pageNumber} setPageNumber={setPageNumber}/>
     </div>
   );
 }
